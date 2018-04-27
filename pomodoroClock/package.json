@@ -1,0 +1,15 @@
+{
+  "name": "pomodoroclock",
+  "version": "1.0.0",
+  "description": "A Pomodoro Clock implemented in Electron",
+  "main": "bootstrap.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Baker",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.8.4"
+  }
+}
