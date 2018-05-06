@@ -24,7 +24,7 @@ function ClockObject(bigTime, mode, animation, color, id){
 var test = document.getElementById("test");
 
 function initElements(id){
-    clockArray[id] = new ClockObject(1499, "normal", "fadeToBlack", "0D5B85", id);
+    clockArray[id] = new ClockObject(60, "normal", "fadeToBlack", "0D5B85", id);
 }
 
 function counter(clockId){
